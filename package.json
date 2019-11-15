@@ -1,0 +1,22 @@
+{
+    "name": "pitchdark",
+    "displayName": "PitchDark",
+    "description": "Dark theme based on stock Dark+ theme, but with a darker background and more vivid colors.",
+    "version": "0.0.1",
+    "publisher": "hairlesshobo",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "PitchDark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/PitchDark-color-theme.json"
+            }
+        ]
+    }
+}
