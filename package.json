@@ -4,6 +4,10 @@
     "description": "Dark theme based on stock Dark+ theme, but with a darker background and more vivid colors.",
     "version": "0.0.1",
     "publisher": "hairlesshobo",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hairlesshobo/vscode-pitchdark"
+    },
     "engines": {
         "vscode": "^1.39.0"
     },
@@ -18,5 +22,15 @@
                 "path": "./themes/PitchDark-color-theme.json"
             }
         ]
+    },
+    "keywords": [
+        "dark",
+        "pitch dark",
+        "pitchdark",
+        "theme"
+    ],
+    "galleryBanner": {
+        "color": "#121417",
+        "theme": "dark"
     }
 }
